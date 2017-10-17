@@ -704,8 +704,8 @@
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"Garm3nFontSmall"
 		"xpos"			"c-15"
-		"ypos"			"r55"
-		"wide"			"0"
+		"ypos"			"r39"
+		"wide"			"32"
 		"tall"			"30"
 		"zpos"			"1"
 		"autoResize"		"0"
@@ -715,5 +715,6 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
+		"fgcolor"		"0 0 0 255"
 	}
 }

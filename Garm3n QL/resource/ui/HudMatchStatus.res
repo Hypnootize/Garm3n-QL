@@ -244,7 +244,6 @@
 		if_match
 		{
 			"xpos"				"c-110"
-			"ypos"				"-26"
 			"zpos"				"5"
 		}
 		
@@ -267,8 +266,9 @@
 			
 			if_match
 			{
-				"font"			"Garm3nFontSmaller"
-				"textAlignment"		"center"
+				"ypos"			"1"
+				"font"			"Garm3nFontTiny"
+				"textAlignment"	"center"
 			}
 		}
 	}
