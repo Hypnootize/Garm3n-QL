@@ -1,29 +1,15 @@
 "GameMenu" [$WIN32]
 {
-	"CasualButton"
-	{
-		"label" "Play Casual" 
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Play Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_practice"
-	}
-	"MvMButton"
-	{
-		"label" "Play MvM" 
-		"command" "play_mvm"
-		"subimage" "glyph_coop"
-	}
 	"ServerBrowserButton"
 	{
 		"label"			"Browse Servers"
 		"command"		"OpenServerBrowser"
 		"OnlyAtMenu"	"0"
 		"subimage" 		"glyph_server_browser"
+	}
+	"TF2SettingsButton"
+	{
+		"tooltip"			""
 	}
 	"ReplayBrowserButton"
 	{
