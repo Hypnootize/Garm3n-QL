@@ -290,16 +290,15 @@
 		if_match
 		{
 			"xpos"				"c-110"
-			"ypos"				"-27"	
+			"ypos"				"-26"	
 			"zpos"				"5"
 		}
 		
 		"TimePanelValue"
 		{
-			"ControlName"		"CExLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
 			"font"			"Garm3nFontMediumShadow"
-			"font_lodef"	"Garm3nFontMediumShadow"
 			"fgcolor"		"Garm3nHUDWhite"
 			"xpos"			"34"
 			"ypos"			"28"
@@ -308,7 +307,7 @@
 			"tall"			"32"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"west"
+			"textAlignment"	"west"
 			"labelText"		"0:00"
 			
 			if_match
@@ -352,8 +351,8 @@
 			"tall"			"50"
 			"zpos"			"1"
 
-			"color_portrait_bg_red"	"119 62 61 255"
-			"color_portrait_bg_blue"	"62 81 101 255"
+			"color_portrait_bg_red"	"Garm3nHUDRed"
+			"color_portrait_bg_blue"	"Garm3nHUDBlue"
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
 			"color_bar_health_high"	"84 191 58 255"

@@ -2,7 +2,7 @@
 {	
 	"TimePanelBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TimePanelBG"
 		"xpos"			"16"
 		"ypos"			"9"
@@ -12,13 +12,14 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
-		"scaleImage"		"1"	
+		"scaleImage"	"1"	
 		
 		if_match
 		{
 			"xpos"	"9999"
 		}
 	}
+	
 	"TimePanelProgressBar"
 	{
 		"ControlName"			"CTFProgressBar"
@@ -42,6 +43,7 @@
 			"xpos"	"9999"
 		}
 	}
+	
 	ClockIcon
 	{
 		"controlName"	"CExLabel"
@@ -66,6 +68,7 @@
 			"xpos"	"9999"
 		}	
 	}
+	
 	ClockIconShadow
 	{
 		"controlName"	"CExLabel"
@@ -90,9 +93,10 @@
 			"xpos"	"9999"
 		}
 	}
+	
 	"WaitingForPlayersLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
 		"xpos"			"10"
 		"ypos"			"12"
@@ -102,21 +106,23 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_WaitingForPlayers"
-		"textAlignment"		"west"
+		"textAlignment"	"west"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ChatFont"
-		"fgcolor"			"Garm3nHUDWhite"
+		"fgcolor"		"Garm3nHUDWhite"
 		
 		if_match
 		{
-			"xpos"	"9999"
+			"xpos"			"70"
+			"ypos"			"50"
+			"textAlignment"	"center"
 		}
 	}			
 	"WaitingForPlayersBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"WaitingForPlayersBG"
 		"xpos"			"38"	
 		"ypos"			"30"
@@ -126,16 +132,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
+		"scaleImage"	"1"
 	}
 	"OvertimeLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"10"
 		"ypos"			"12"
@@ -145,21 +146,23 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Overtime"
-		"textAlignment"		"west"
+		"textAlignment"	"west"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ChatFont"
-		"fgcolor"			"Garm3nHUDWhite"
+		"fgcolor"		"Garm3nHUDWhite"
 		
 		if_match
 		{
-			"xpos"	"9999"
+			"xpos"			"70"
+			"ypos"			"50"
+			"textAlignment"	"center"
 		}
 	}			
 	"OvertimeBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"OvertimeBG"
 		"xpos"			"16"	
 		"ypos"			"31"
@@ -169,16 +172,11 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
+		"scaleImage"	"1"
 	}
 	"SuddenDeathLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
 		"xpos"			"10"
 		"ypos"			"12"
@@ -188,21 +186,23 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_SuddenDeath"
-		"textAlignment"		"west"
+		"textAlignment"	"west"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ChatFont"
-		"fgcolor"			"Garm3nHUDWhite"
+		"fgcolor"		"Garm3nHUDWhite"
 		
 		if_match
 		{
-			"xpos"	"9999"
+			"xpos"			"70"
+			"ypos"			"50"
+			"textAlignment"	"center"
 		}
 	}			
 	"SuddenDeathBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SuddenDeathBG"
 		"xpos"			"16"	
 		"ypos"			"31"
@@ -212,12 +212,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
+		"scaleImage"	"1"	
 	}	
 	"SetupLabel"
 	{
@@ -231,21 +226,23 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_Setup"
-		"textAlignment"		"west"
+		"textAlignment"	"west"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ChatFont"
-		"fgcolor"			"Garm3nHUDWhite"
+		"fgcolor"		"Garm3nHUDWhite"
 		
 		if_match
 		{
-			"xpos"	"9999"
+			"xpos"			"70"
+			"ypos"			"50"
+			"textAlignment"	"center"
 		}
 	}	
 	"SetupBG"
 	{
-		"ControlName"		"CTFImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"SetupBG"
 		"xpos"			"16"	
 		"ypos"			"31"
@@ -255,12 +252,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_suddendeath"	
-		"scaleImage"		"1"	
-		
-		if_match
-		{
-			"xpos"	"9999"
-		}
+		"scaleImage"	"1"
 	}
 	
 	"ServerTimeLimitLabel"

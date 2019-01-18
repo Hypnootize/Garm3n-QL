@@ -6,7 +6,7 @@
 		"fieldName"		"ItemNameLabel"
 		"font"			"Default"
 		"xpos"			"40"
-		"ypos"			"0"
+		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"84"
 		"tall"			"15"

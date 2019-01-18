@@ -2,9 +2,9 @@
 {
 	HudTournament
 	{
-		"ControlName"		"EditablePanel"
+		"ControlName"			"EditablePanel"
 		"fieldName"				"HudTournament"
-				
+		
 		"xpos"					"0"
 		"ypos"					"0"
 		"wide"					"f0"
@@ -20,6 +20,19 @@
 		"team2_player_delta_y"				"18"
 		"teams_player_delta_x_comp"			"48"
 		
+		if_competitive
+		{
+			"team1_player_base_y"			"45"
+		}
+		if_readymode
+		{
+			"team1_player_base_y"			"45"
+		}
+		if_mvm
+		{
+			"team1_player_base_y"			"80"
+		}
+		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
@@ -29,13 +42,13 @@
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
-										  			
+			
 			"playername"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
 				"font"			"DefaultVerySmall"
-				"xpos"			"5"
+				"xpos"			"4"
 				"ypos"			"24"
 				"zpos"			"5"
 				"wide"			"50"
@@ -45,23 +58,13 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
-					
-				if_mvm
-				{
-					"xpos"				"4"
-					"ypos"				"25"
-					"wide"			"48"
-					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
-				}
 			}
 			
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"2"
+				"xpos"			"3"
 				"ypos"			"2"
 				"zpos"			"2"
 				"wide"			"22"
@@ -70,35 +73,21 @@
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
 				"scaleImage"	"1"	
-				
-				if_mvm
-				{
-					"xpos"			"5"
-					"ypos"			"4"
-					"wide"			"20"
-					"tall"			"20"
-					"image"			"../vgui/hud_connecting"
-				}
 			}
 			
 			"classimagebg"
 			{
-				"ControlName"		"Panel"
+				"ControlName"	"Panel"
 				"fieldName"		"classimagebg"
 				"xpos"			"5"
 				"ypos"			"4"
 				"zpos"			"2"
-				"wide"			"20"
-				"tall"			"20"
+				"wide"			"0"
+				"tall"			"0"
 				"visible"		"0"
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
-				
-				if_mvm
-				{
-					"visible"		"1"
-				}
 			}
 			
 			"HealthIcon"
@@ -108,8 +97,8 @@
 				"xpos"				"22"
 				"ypos"				"-3"
 				"zpos"				"3"
-				"wide"				"32"
-				"tall"				"32"
+				"wide"				"0"
+				"tall"				"0"
 				"visible"			"1"
 				"enabled"			"1"	
 				"HealthBonusPosAdj"	"10"
@@ -139,16 +128,11 @@
 			
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
-				
-				if_mvm
-				{
-					"visible"		"1"
-				}	
 			}
 			
 			"ReadyImage"
 			{
-				"ControlName"		"ImagePanel"
+				"ControlName"	"ImagePanel"
 				"fieldName"		"ReadyImage"
 				"xpos"			"32"
 				"ypos"			"8"
@@ -160,12 +144,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"image"			"hud/checkmark"
-				"scaleImage"		"1"
-
-				if_mvm
-				{
-					"visible"		"1"
-				}
+				"scaleImage"	"1"
 			}
 			
 			"respawntime"
@@ -176,14 +155,13 @@
 				"xpos"			"30"
 				"ypos"			"18"
 				"zpos"			"5"
-				"wide"			"23"
-				"tall"			"10"
+				"wide"			"0"
+				"tall"			"0"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				//"fgcolor"		"235 226 202 255"
 			}
 			
 			"chargeamount"
@@ -194,19 +172,14 @@
 				"xpos"			"25"
 				"ypos"			"17"
 				"zpos"			"6"
-				"wide"			"25"
-				"tall"			"15"
+				"wide"			"0"
+				"tall"			"0"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
 				"fgcolor"		"0 255 0 255"
-				
-				if_mvm
-				{	
-					"visible"		"0"
-				}
 			}
 			
 			"specindex"
@@ -217,33 +190,15 @@
 				"xpos"			"4"
 				"ypos"			"2"
 				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
+				"wide"			"0"
+				"tall"			"0"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
 			}
-			
-			if_mvm
-			{
-				"wide"		"55"
-				"tall"		"35"
-			}
-		}
-		
-		if_mvm
-		{
-			"xpos"					"c-250"
-			"ypos"					"0"
-			"wide"					"500"
-			"tall"					"480"
-
-			"team1_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-		}		
+		}	
 	}
 
 	"HudTournamentBG"
@@ -251,7 +206,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBG"
 		"xpos"			"c-125"
-		"ypos"			"0"
+		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"0"
 		"tall"			"55"
@@ -289,7 +244,7 @@
 		"fieldName"		"TournamentLabel"
 		"font"			"HudFontSmall"
 		"xpos"			"c-117"
-		"ypos"			"9"
+		"ypos"			"29"
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"35"
@@ -321,7 +276,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBLUEBG"
 		"xpos"			"c-120"
-		"ypos"			"23"
+		"ypos"			"43"
 		"zpos"			"-1"
 		"wide"			"0"
 		"tall"			"16"
@@ -357,7 +312,7 @@
 		"fieldName"		"TournamentBLUELabel"
 		"font"			"Garm3nFontTinyShadow"
 		"xpos"			"c-119"
-		"ypos"			"12"
+		"ypos"			"32"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"15"
@@ -391,7 +346,7 @@
 		"fieldName"		"TournamentBLUEStateLabel"
 		"font"			"Garm3nFontTargetSmallestShadow"
 		"xpos"			"c-56"
-		"ypos"			"11"
+		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"16"
@@ -423,7 +378,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentREDBG"
 		"xpos"			"c0"
-		"ypos"			"23"
+		"ypos"			"43"
 		"zpos"			"-1"
 		"wide"			"0"
 		"tall"			"16"
@@ -459,7 +414,7 @@
 		"fieldName"		"TournamentREDLabel"
 		"font"			"Garm3nFontTinyShadow"
 		"xpos"			"c55"
-		"ypos"			"12"
+		"ypos"			"32"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"15"
@@ -492,7 +447,7 @@
 		"fieldName"		"TournamentREDStateLabel"
 		"font"			"Garm3nFontTargetSmallestShadow"
 		"xpos"			"c-6"
-		"ypos"			"11"
+		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"16"
@@ -521,26 +476,34 @@
 	}
 	"TournamentConditionLabel"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
 		"font"			"TFFontSmall"
 		"fgcolor"		"Garm3nHUDWhite"
 		"xpos"			"c-124"
-		"ypos"			"11"
+		"ypos"			"31"
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"35"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%winconditions%"
-		"textAlignment"		"center"
-
+		"textAlignment"	"center"
+		
+		if_competitive
+		{
+			"ypos"		"20"
+		}
+		if_readymode
+		{
+			"ypos"		"20"
+		}
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 
@@ -549,7 +512,7 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBGHelp"
 		"xpos"			"c-125"
-		"ypos"			"0"
+		"ypos"			"20"
 		"zpos"			"-1"
 		"wide"			"250"
 		"tall"			"36"
@@ -582,59 +545,59 @@
 	}
 	"TournamentInstructionsLabel"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
 		"font"			"TFFontSmall"
 		"fgcolor"		"Garm3nHUDWhite"
 		"xpos"			"c-125"
-		"ypos"			"4"
+		"ypos"			"24"
 		"wide"			"250"
-		"tall"			"10"
+		"tall"			"0"
 		"zpos"			"1"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%readylabel%"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 
 		if_competitive
 		{
-			"ypos"		"65"
+			"ypos"		"80"
+			"tall"		"10"
 		}
 		if_readymode
 		{
-			"ypos"		"65"
+			"ypos"		"80"
+			"tall"		"10"
 		}
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"155"
-			"ypos"			"105"
-			"wide"			"190"
-			"tall"			"12"
-			"zpos"			"3"
+			"font"		"HudFontSmallishBold"
+			"zpos"		"5"
+			"ypos"		"120"
+			"tall"		"20"
 		}
 	}
 	
 	"TournamentInstructionsLabelShadow"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TournamentInstructionsLabelShadow"
 		"font"			"TFFontSmall"
 		"xpos"			"c-125"
-		"ypos"			"54"
+		"ypos"			"74"
 		"wide"			"250"
-		"tall"			"10"
+		"tall"			"0"
 		"zpos"			"2"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%readylabel%"
-		"textAlignment"		"center"
+		"textAlignment"	"center"
 		
 		if_competitive
 		{
@@ -646,13 +609,12 @@
 		}
 		if_mvm
 		{
-			"font"			"HudFontSmallishBold"
-			"xpos"			"156"
-			"ypos"			"106"
-			"wide"			"190"
-			"tall"			"12"
-			"visible"		"1"
-			"fgcolor"		"Black"
+			"font"		"HudFontSmallishBold"
+			"xpos"		"c-124"
+			"ypos"		"121"
+			"tall"		"20"
+			"fgcolor"	"Black"
+			"visible"	"1"
 		}
 	}
 	

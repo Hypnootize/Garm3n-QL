@@ -53,9 +53,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"Garm3nFontSmall"
-		"fgcolor"			"Garm3nHUDWhite"
+		"fgcolor"		"Garm3nHUDGrey"
 		"xpos"			"90"			// align me to the left edge of the first selection
-		"ypos"			"20"
+		"ypos"			"35"
 		"zpos"			"2"
 		"wide"			"300"
 		"tall"			"38"
@@ -76,7 +76,7 @@
 		"font"			"Garm3nFontSmall"
 		"fgcolor"			"Garm3nHUDDarkGrey"
 		"xpos"			"91"			// align me to the left edge of the first selection
-		"ypos"			"21"
+		"ypos"			"36"
 		"zpos"			"1"
 		"wide"			"300"
 		"tall"			"38"

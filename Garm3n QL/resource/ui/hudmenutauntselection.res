@@ -49,7 +49,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"Garm3nFontSmall"
-		"fgcolor"			"Garm3nHUDWhite"
+		"fgcolor"		"Garm3nHUDGrey"
 		"xpos"			"201"			// align me to the left edge of the first selection
 		"ypos"			"46"
 		"zpos"			"3"

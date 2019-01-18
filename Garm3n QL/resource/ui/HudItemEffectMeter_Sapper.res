@@ -62,7 +62,7 @@
 		"zpos"			"2"
 
 		"xpos"			"0"
-		"ypos"			"r340"
+		"ypos"			"r274"
 		"wide"			"35"
 		"tall"			"36"
 
@@ -81,7 +81,7 @@
 		"zpos"			"1"
 
 		"xpos"			"1"
-		"ypos"			"r339"
+		"ypos"			"r273"
 		"wide"			"35"
 		"tall"			"36"
 
@@ -98,7 +98,7 @@
 		"fieldName"		"ItemEffectMeter"
 		"font"			"Default"
 		"xpos"			"36"
-		"ypos"			"r323"
+		"ypos"			"r257"
 		"zpos"			"2"
 		"wide"			"37"
 		"tall"			"5"				

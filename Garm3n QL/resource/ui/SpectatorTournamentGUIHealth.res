@@ -76,15 +76,15 @@
 		"xpos"			"-10"
 		"ypos"			"4"
 		"zpos"			"5"
-		"wide"			"33"
+		"wide"			"38"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"		"east"
 		"fgcolor"			"Garm3nHUDWhite"
-		"font"			"Garm3nFontTiny"
-      }
+		"font"			"Garm3nFontSmallest"
+	}
 	"PlayerStatusHealthValue2Shadow"
 	{	
 		"ControlName"		"CExLabel"

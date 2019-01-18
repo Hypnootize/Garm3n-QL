@@ -2,8 +2,8 @@
 {		
 	HudSpellMenu
 	{
-		"xpos"			"100"
-		"ypos"			"r38"
+		"xpos"			"3"
+		"ypos"			"r160"
 
 		"if_killstreak_visible"
 		{
@@ -16,7 +16,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpellIcon"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"2"
 		"zpos"			"13"
 		"wide"			"20"
 		"tall"			"20"
@@ -36,7 +36,7 @@
 		"textAlignment" "west"
 		"xpos"			"0"
 		"ypos"			"20"
-		"wide"			"100"
+		"wide"			"0"	//100
 		"tall"			"20"
 		"fgcolor"		"255 255 255 255"
 		"visible"		"1"
@@ -46,7 +46,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountText"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"Garm3nFontMediumShadow"
 		"labelText"		"%counttext%"
 		"textAlignment" "west"
 		"xpos"			"27"
