@@ -1,14 +1,5 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {	
-
-	"HudKothTimeStatus"
-	{
-		if_match
-		{
-			"zpos"		"5"
-		}
-	}
-
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"
@@ -23,8 +14,8 @@
 		
 		if_match
 		{
-			"xpos"			"76"
-			"ypos"			"-26"
+			"xpos"			"70"
+			"ypos"			"-33"
 		}
 		
 		"TimePanelValue"
@@ -45,7 +36,7 @@
 			
 			if_match
 			{
-				"font"		"Garm3nFontTiny"
+				"font"		"Garm3nFontSmallerShadow"
 			}
 		}	
 	}
@@ -64,8 +55,8 @@
 		
 		if_match
 		{
-			"xpos"			"110"
-			"ypos"			"-26"
+			"xpos"			"115"
+			"ypos"			"-33"
 		}
 		
 		"TimePanelValue"
@@ -86,7 +77,7 @@
 			
 			if_match
 			{
-				"font"		"Garm3nFontTiny"
+				"font"		"Garm3nFontSmallerShadow"
 			}
 		}	
 	}

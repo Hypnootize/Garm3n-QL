@@ -762,7 +762,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DestructionLabel"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"		"west"
@@ -781,7 +781,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CapturesLabel"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"fgcolor"			"Garm3nHUDWhite"
 			"textAlignment"		"west"
@@ -800,7 +800,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DefensesLabel"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"		"west"
@@ -929,7 +929,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Destruction2"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"%destruction%"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"	"east"
@@ -948,7 +948,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Captures2"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"%captures%"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"	"east"
@@ -967,7 +967,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Defenses2"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"%defenses%"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"	"east"
@@ -986,7 +986,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DominationLabel"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"		"west"
@@ -1005,7 +1005,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RevengeLabel"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"		"west"
@@ -1024,7 +1024,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"		"west"
@@ -1043,7 +1043,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeadshotsLabel"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"		"west"
@@ -1062,7 +1062,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TeleportsLabel"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"		"west"
@@ -1081,7 +1081,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"		"west"
@@ -1100,7 +1100,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination2"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"%dominations%"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"		"east"
@@ -1119,7 +1119,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Revenge2"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"%Revenge%"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"	"east"
@@ -1138,7 +1138,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Invuln2"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"%invulns%"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"	"east"
@@ -1157,7 +1157,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Headshots2"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"%headshots%"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"	"east"
@@ -1176,7 +1176,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Teleports2"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"%teleports%"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"	"east"
@@ -1195,7 +1195,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Healing2"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"%healing%"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"	"east"
@@ -1214,7 +1214,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BackstabsLabel"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"		"west"
@@ -1233,7 +1233,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"		"west"
@@ -1252,7 +1252,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Backstabs2"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"%backstabs%"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"	"east"
@@ -1271,7 +1271,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Bonus2"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"%bonus%"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"	"east"
@@ -1290,7 +1290,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"#TF_ScoreBoard_DamageLabel"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"		"west"
@@ -1309,7 +1309,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"damage2"
-			"font"			"Garm3nFontTinyShadow"
+			"font"			"Garm3nFontTinyShadow2"
 			"labelText"		"%damage%"
 			"fgcolor"		"Garm3nHUDWhite"
 			"textAlignment"	"east"

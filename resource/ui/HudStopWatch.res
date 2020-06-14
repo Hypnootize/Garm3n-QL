@@ -54,7 +54,7 @@
 		
 		if_comp
 		{
-			"ypos"			"31"
+			"ypos"			"21"
 		}
 		
 		"TimePanelValue"
@@ -99,7 +99,7 @@
 		
 		if_comp
 		{
-			"ypos"			"55"
+			"ypos"			"45"
 		}
 	}
 	"StopWatchPointsLabel"
@@ -123,7 +123,7 @@
 		
 		if_comp
 		{
-			"ypos"			"55"
+			"ypos"			"45"
 		}
 	}
 

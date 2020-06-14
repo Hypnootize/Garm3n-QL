@@ -198,7 +198,7 @@
 	"RoundCounter"
 	{
 		"fieldName"		"RoundCounter"
-		"xpos"			"cs-0.5"
+		"xpos"			"9999"
 		"ypos"			"-2"
 		"zpos"			"1"		
 		"wide"			"300"
@@ -212,7 +212,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BGFrame"
-		"xpos"				"cs-0.5"
+		"xpos"				"9999"
 		"ypos"				"-5"
 		"zpos"				"0"
 		"wide"				"0"
@@ -290,8 +290,7 @@
 		if_match
 		{
 			"xpos"				"c-110"
-			"ypos"				"-26"	
-			"zpos"				"5"
+			"ypos"				"-33"
 		}
 		
 		"TimePanelValue"
@@ -312,7 +311,6 @@
 			
 			if_match
 			{
-				"font"			"Garm3nFontTiny"
 				"textAlignment"	"center"
 			}
 		}
@@ -337,11 +335,11 @@
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-45"
+		"team1_base_x"	"c-50"
 		"team1_max_expand"	"133"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c47"
+		"team2_base_x"	"c52"
 		"team2_max_expand"	"133"
 
 		"playerpanels_kv"

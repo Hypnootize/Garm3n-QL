@@ -2,7 +2,6 @@ Scheme
 {
 	Fonts
 	{
-		
 		"seeker9"
 		{
 			"1"
@@ -1935,400 +1934,43 @@ Scheme
 				"outline"									"1"
 			}
 		}
-		
-		"CrossHairRequest"
-		{
-			"1"
-			{
-				"name"		"Courier"
-				"tall"		"20"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"CrossHairXS"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"13"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"CrossHairCircle"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"30"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"CrossHairCircleFilling"
-		{
-			"1"
-			{
-				"name"		"BulletBalls AOE"
-				"tall"		"30"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"CrossHairKonrDot"
-		{
-			"1"
-			{
-				"name"		"Wibble"
-				"tall"		"19"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"CrossHairDotOutline"
-		{
-			"1"
-			{
-				"name"		"Paula"
-				"tall"		"4"
-				"weight"	"0"
-				"outline" "1"
-				"antialias"	"0"
-			}
-		}
-
-		"CrossHairDotLarge"
-		{
-			"1"
-			{
-				"name"		"Wibble"
-				"tall"		"32"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"CrossHairDotLargeOutline"
-		{
-			"1"
-			{
-				"name"		"Arista 2.0 Light"
-				"tall"		"14"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"CrossHairSmiley"
-		{
-			"1"
-			{
-				"name"		"Emoticons"
-				"tall"		"9"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"CrossHairSmileyBG"
-		{
-			"1"
-			{
-				"name"		"PizzaDude Bullets"
-				"tall"		"6"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairNormalPulse"
-		{
-			"1"
-			{
-				"name"		"Symbol"
-				"tall"		"28"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"xHairRequestPulse"
-		{
-			"1"
-			{
-				"name"		"Courier"
-				"tall"		"20"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"xHairXSPulse"
-		{
-			"1"
-			{
-				"name"		"Arial Black"
-				"tall"		"13"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-			}
-		}
-
-		"xHairCirclePulse"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"30"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairKonrDotPulse"
-		{
-			"1"
-			{
-				"name"		"Wibble"
-				"tall"		"19"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairDotOutlinePulse"
-		{
-			"1"
-			{
-				"name"		"Paula"
-				"tall"		"4"
-				"weight"	"0"
-				"outline" "1"
-				"antialias"	"0"
-			}
-		}
-
-		"xHairDotSmallPulse"
-		{
-			"1"
-			{
-				"name"		"Wibble"
-				"tall"		"23"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairDotSmallOutline"
-		{
-			"1"
-			{
-				"name"		"Wibble"
-				"tall"		"28"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairDotLargePulse"
-		{
-			"1"
-			{
-				"name"		"Wibble"
-				"tall"		"32"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairDotLargeOutline"
-		{
-			"1"
-			{
-				"name"		"Arista 2.0 Light"
-				"tall"		"14"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairSmileyPulse"
-		{
-			"1"
-			{
-				"name"		"Emoticons"
-				"tall"		"9"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairUhOhPulse"
-		{
-			"1"
-			{
-				"name"		"Emoticons"
-				"tall"		"9"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairHappyPulse"
-		{
-			"1"
-			{
-				"name"		"Emoticons"
-				"tall"		"9"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairSmileyBG"
-		{
-			"1"
-			{
-				"name"		"PizzaDude Bullets"
-				"tall"		"6"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairSmilePulse"
-		{
-			"1"
-			{
-				"name"		"PizzaDude Bullets"
-				"tall"		"12"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairSadPulse"
-		{
-			"1"
-			{
-				"name"		"PizzaDude Bullets"
-				"tall"		"12"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairSmilePlusPulse"
-		{
-			"1"
-			{
-				"name"		"PizzaDude Bullets"
-				"tall"		"12"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairSmileBG"
-		{
-			"1"
-			{
-				"name"		"PizzaDude Bullets"
-				"tall"		"15"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
 	}
 	CustomFontFiles
 	{
 		"20"
 		{
-			"font" "resource/crosshairs/tf2cross.ttf"
-			"name" "tf2cross"
+			"font" 		"scripts/crosshairs/fonts/TF2Cross.ttf"
+			"name" 		"tf2cross"
 		}
 		
 		"21" 
 		{
-			"font" "resource/crosshairs/ASTRO867.TTF"
-			"name" "Astro 867"
+			"font" 		"scripts/crosshairs/fonts/ASTRO867.TTF"
+			"name" 		"Astro 867"
 		}
 		
 		"22" 
 		{
-			"font" "resource/crosshairs/taller_evolution.ttf"
-			"name" "taller evolution"
+			"font" 		"scripts/crosshairs/fonts/taller_evolution.ttf"
+			"name" 		"taller evolution"
 		}
 		
 		"23"
 		{
-			"font" "resource/crosshairs/Crosshairs.ttf"
-			"name" "broeselhud Crosshairs"
+			"font" 		"scripts/crosshairs/fonts/Crosshairs.ttf"
+			"name" 		"broeselhud Crosshairs"
 		}
 		
 		"24"
 		{
-			"font" "resource/crosshairs/Garm3nFont.ttf"
-			"name" "Garm3nFont"
+			"font" 		"scripts/crosshairs/fonts/Garm3nFont.ttf"
+			"name" 		"Garm3nFont"
 		}
 		
 		"25"
 		{
-			"font" "resource/crosshairs/KnucklesCrosses.ttf"
-			"name" "KnucklesCrosses"
-		}
-		
-		"26" 
-		{
-			"font" "resource/crosshairs/symbol.ttf"
-			"name" "symbol"
-		}
-		
-		"27" 
-		{
-			"font" "resource/crosshairs/BULLBA__0.TTF"
-			"name" "BulletBalls AOE"
-		}
-		
-		"28" 
-		{
-			"font" "resource/crosshairs/FORMASGE.ttf"
-			"name" "Formas germetricas 1"
-		}
-		
-		"29" 
-		{
-			"font" "resource/crosshairs/Paula.ttf"
-			"name" "Paula"
-		}
-		
-		"30" 
-		{
-			"font" "resource/crosshairs/PIZZADUDEBULLETS.ttf"
-			"name" "PizzaDude Bullets"
-		}
-		
-		"31" 
-		{
-			"font" "resource/crosshairs/emoticons.ttf"
-			"name" "emoticons"
-		}
-		
-		"32" 
-		{
-			"font" "resource/crosshairs/Arista2.0 light.ttf"
-			"name" "Arista 2.0 Light"
+			"font" 		"scripts/crosshairs/fonts/KnucklesCrosses.ttf"
+			"name" 		"KnucklesCrosses"
 		}
 	}
 }

@@ -1,4 +1,4 @@
-#base "../resource/crosshairs/Crosshair Fonts.res"
+#base "../scripts/crosshairs/fonts/ClientScheme_Crosshairs.res"
 //
 // TRACKER SCHEME RESOURCE FILE
 //
@@ -622,6 +622,19 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		"Garm3nFontSmallerShadow"
+		{
+			"1"
+			{
+				"name"		"HandelGothic BT"
+				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
 
 		"Garm3nFontSmallest"
 		{
@@ -653,6 +666,19 @@ Scheme
 			{
 				"name"		"HandelGothic BT"
 				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"dropshadow"	"1"
+				"antialias" "1"
+			}
+		}
+		
+		"Garm3nFontTinyShadow2"
+		{
+			"1"
+			{
+				"name"		"HandelGothic BT"
+				"tall"		"13"
 				"weight"	"500"
 				"additive"	"0"
 				"dropshadow"	"1"
