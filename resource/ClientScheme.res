@@ -1,4 +1,4 @@
-#base "../scripts/crosshairs/fonts/ClientScheme_Crosshairs.res"
+#base "../scripts/crosshairs/font/Crosshairs.res"
 //
 // TRACKER SCHEME RESOURCE FILE
 //
@@ -6254,25 +6254,25 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
-		"7" 	//Main Font
+		"7"	//Main Font
 		{
-			"font" "resource/HANDGOTN.TTF"
+			"font" "resource/fonts/HANDGOTN.TTF"
 			"name" "HANDGOTN"
 		}
-		"8" 	//Main Menu Font
+		"8"	//Main Menu Font
 		{
-			"font" "resource/boombox2.ttf"
+			"font" "resource/fonts/boombox2.ttf"
 			"name" "boombox2"
 		}
-		"9" 	//Clock, Flag etc... Icons
+		"9"	//Clock, Flag etc... Icons
 		{
-			"font" "resource/heydings_icons.ttf"
+			"font" "resource/fonts/heydings_icons.ttf"
 			"name" "heydings_icons"
 		}
-		"10" 	//StickyIcon
+		"10" //StickyIcon
 		{
-			"font" "resource/MAC_DING.TTF"
+			"font" "resource/fonts/MAC_DING.TTF"
 			"name" "MAC_DING"
-		}			
+		}
 	}
 }
