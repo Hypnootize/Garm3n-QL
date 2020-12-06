@@ -107,21 +107,21 @@
 		"image"			""
 		"scaleImage"	"1"		
 	}
-
-	"MapInfoContinue" 
+	
+	"ok" 
 	{
-		"ControlName"	"CTFButton"
-		"fieldName"		"MapInfoContinue"
-		"xpos"			"c-49"
+		"ControlName"	"CExButton"
+		"fieldName"		"ok"
+		"xpos"			"c-60"
 		"ypos"			"307"
 		"zpos"			"6"
-		"wide"			"99"
+		"wide"			"110"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Continue"
+		"labelText"		"CONTINUE (&E)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -135,6 +135,13 @@
 		"defaultFgColor_override" "165 165 165 255"
 		"armedFgColor_override" "255 255 255 255"
 		"depressedFgColor_override" "165 165 165 255"
+	}
+
+	"MapInfoContinue" 
+	{
+		"ControlName"	"CTFButton"
+		"fieldName"		"MapInfoContinue"
+		"xpos"			"9999"
 	}
 	
 	"MapInfoWatchIntro" 
