@@ -36,14 +36,14 @@
 ## SCOREBOARD 6VS6
 ![Scoreboard 6v6](../screenshots/11_Scoreboard_6v6.jpg?raw=true)
 
+## WIN & DAMAGE
+![Win & Damage](../screenshots/12_Win.jpg?raw=true)
+
 ## SPY DISGUISE
-![Disguise](../screenshots/12_Disguise.jpg?raw=true)
+![Disguise](../screenshots/13_Disguise.jpg?raw=true)
 
 ## TOURNAMENT MODE
-![Tournament Mode](../screenshots/13_Tournament.jpg?raw=true)
-
-## WIN & DAMAGE
-![Win & Damage](../screenshots/14_Win.jpg?raw=true)
+![Tournament Mode](../screenshots/14_Tournament.jpg?raw=true)
 
 ## TAUNT MENU
 ![Taunt Menu](../screenshots/15_Taunt_Menu.jpg?raw=true)
